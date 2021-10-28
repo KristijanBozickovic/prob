@@ -1,0 +1,169 @@
+*{
+	margin: 0 ;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(maldivi1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 20px;
+	border: 1px solid transparent;
+	transition: 0.7s ease;
+} 
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+.class1{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(maldivi.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.title1{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 70px;
+}
+
+.p1{
+	position: center;
+	text-align: center;
+	left: -10%;
+	color: #fff;
+}
+	
+.wrap{
+    height: 900px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div5{
+    max-width: 60%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+	
+
+
+
+
+.div1{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+.class2{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(maldivi-01.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.login1{
+	width: 350px;
+	height: 580px;
+	color: #fff;
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+
+.class3{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(465623.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.kontakt1{
+	position:relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+	color: white;
+	max-width: 800px;
+	top: -10%;
+	left: -20%;
+}
+.title2{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 50px;
+}
+.input1:active{
+	background-color: cyan;
+}
+
+.textarea1:active{
+	background-color: cyan;
+}
+
+
+
